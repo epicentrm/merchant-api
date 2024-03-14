@@ -1,5 +1,8 @@
+Java
+----------------------
+```
 public User getUser(String token) throws Exception {
- final String domain = "https://merchant-api.epicentrm.com.ua";
+ final String domain = "https://core-api-qa.epicentrm.com.ua";
  final String path = "/v1/my/user";
  UriComponentsBuilder builder = UriComponentsBuilder
    .fromHttpUrl(domain)
@@ -25,3 +28,4 @@ public User getUser(String token) throws Exception {
 
  return response.getBody();
 }
+```

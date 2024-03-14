@@ -1,6 +1,10 @@
+Python
+----------------------
+
+```
 import requests
 
-url = "https://merchant-api.epicentrm.com.ua/v1/my/user"
+url = "https://core-api-qa.epicentrm.com.ua/v1/my/user"
 
 payload = {}
 headers = {
@@ -11,3 +15,4 @@ headers = {
 response = requests.request("GET", url, headers=headers, data=payload)
 
 print(response.text)
+```

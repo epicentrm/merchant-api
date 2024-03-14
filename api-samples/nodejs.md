@@ -1,3 +1,7 @@
+Node JS
+----------------------
+
+```
 var request = require('request');
 
 var headers = {
@@ -6,7 +10,7 @@ var headers = {
 };
 
 var options = {
-    url: 'https://merchant-api.epicentrm.com.ua/v1/my/user',
+    url: 'https://core-api-qa.epicentrm.com.ua/v1/my/user',
     headers: headers
 };
 
@@ -17,3 +21,4 @@ function callback(error, response, body) {
 }
 
 request(options, callback);
+```
