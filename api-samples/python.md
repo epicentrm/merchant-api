@@ -4,7 +4,7 @@ Python
 ```
 import requests
 
-url = "https://core-api-qa.epicentrm.com.ua/v1/my/user"
+url = "https://merchant-api.epicentrm.com.ua/v1/my/user"
 
 payload = {}
 headers = {
